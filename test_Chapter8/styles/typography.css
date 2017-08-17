@@ -1,0 +1,24 @@
+body {
+  font-size: 15pt;
+  font-family: "Times New Roman", serif;
+  margin: 1em 10%;
+}
+
+abbr {
+  text-decoration: none;
+  font-style: italic;
+}
+
+sup a {
+  color: red;
+  text-decoration: none;
+}
+
+#navigation li {
+  display: inline;
+  margin: 1em;
+}
+
+#navigation li a {
+  text-decoration: none;
+}

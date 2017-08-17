@@ -1,0 +1,164 @@
+article, nav, header {
+  display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 1em 10%;
+  background-image: url("../images/background.jpg");
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+header {
+  background-image: url("../images/brothers.jpg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  border-width: .1em;
+  border-style: solid;
+  border-bottom-width: 0;
+
+}
+
+#about header {
+  background-image: url("../images/soldiers.jpg");
+}
+
+#photos header {
+  background-image: url("../images/threePeople.jpeg");
+}
+
+#live header {
+  background-image: url("../images/sunset.jpeg");
+}
+
+#contact header {
+  background-image: url("../images/kitty.jpg");
+}
+
+header nav {
+  background-image: url("../images/navbar.jpg");
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  border-width: .1em;
+  border-style: solid;
+  border-bottom-width: 0;
+  border-top-width: 0;
+}
+
+.navlist {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  overflow: hidden;
+  list-style: none;
+}
+
+.navlist>li {
+  float: left;
+  padding: .5em 0;
+}
+
+.navlist li a {
+  display: block;
+  padding: .5em 2em;
+  text-decoration: none;
+}
+
+.navlist>li>a {
+  border-right-width: .1em;
+  border-right-style: solid;
+}
+
+.dropdown-menu {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+article {
+  border-width: .1em;
+  border-style: solid;
+  border-top-width: 0;
+  padding: 2em 10%;
+  line-height: 1.8em;
+}
+
+article p {
+  margin: 1em 0;
+}
+
+article h1, h2, h3 {
+  line-height: 2.5em;
+}
+
+article img {
+  border: .1em solid;
+  outline-width: .1em;
+  outline-style: solid;
+}
+
+#slideshow {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+#preview {
+  position: absolute;
+}
+
+#imageGallery li {
+  display: inline;
+  padding: 1em;
+}
+
+table {
+  border: .2em solid black;
+}
+
+th, td {
+  width: 7.5em;
+  padding: .5em 3em;
+}
+
+dl {
+  overflow: hidden;
+}
+
+dd, dt {
+  float: left;
+}
+
+dt {
+  margin-right: 1em;
+}
+
+dd {
+  margin-right: 3em;
+}
+
+label {
+  display: block;
+}
+
+fieldset {
+  border: 0;
+}
+
+

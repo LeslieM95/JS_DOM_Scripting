@@ -1,0 +1,29 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    color: #333;
+    background-color: #cccccc;
+    margin: 1em 10%;
+}
+
+a {
+    color: #cc6600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#imageGallery {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 1em;
+}
+
+#placeholder {
+    margin: 1em;
+    border: solid 10px white;
+}
+
+

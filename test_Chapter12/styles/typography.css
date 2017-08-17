@@ -1,0 +1,55 @@
+body {
+  font-size: 90%;
+  font-family: "Times New Roman", serif;
+}
+
+body * {
+  font-size: 1em;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav {
+  font-family: "Helvetica", sans-serif;
+}
+
+article {
+  line-height: 1.8em;
+}
+
+
+
+h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 2.4em;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.8em;
+  font-style: normal;
+  margin-top: 1em;
+}
+
+h3 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.4em;
+  font-style: normal;
+  margin-top: 1em;
+}
+
+#imagegallery li {
+  list-style: none;
+}
+
+textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+tr.highlight td {
+  font-weight: bold;
+}
